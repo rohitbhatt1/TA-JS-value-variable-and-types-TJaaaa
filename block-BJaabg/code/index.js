@@ -23,4 +23,9 @@ if(amount < SPENDING_THRESHOLD){
 }
  let tax = amount * TAX_RATE
  console.log(`$${amount + tax}`);
+
+let final = amount+tax;
+bank_balance === final? console.log(`You can Afford it`): console.log(`you can't afford it`);
+
+
 // ⛑ Answer of the above will `$334.76`.
